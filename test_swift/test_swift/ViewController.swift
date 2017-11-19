@@ -16,10 +16,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     print("テストだよ")
     
-<<<<<<< HEAD
-=======
     maki()
->>>>>>> fa5c77bc9d2c52f2d49c200501a641f50a2442e0
     // Do any additional setup after loading the view, typically from a nib.
   }
   
