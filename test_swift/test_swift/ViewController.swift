@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  var m_UNKO:[String] = ["あ"]
+  var m_UNKO = [String]()
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
   }
   
   func maki(){
-    m_UNKO[0] = "UNKO"
+    m_UNKO.append("UNKO")
     
     print("MAKI専用の\(m_UNKO[0])クラスだぜ")
   }
