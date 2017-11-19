@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  var m_UNKO = [String]()
+  var m_UNKO:[String] = ["あ"]
   
   override func viewDidLoad() {
     super.viewDidLoad()
